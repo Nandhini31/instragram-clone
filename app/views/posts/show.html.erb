@@ -3,7 +3,7 @@
 <p>
   <%= @post.caption %>
   <%= image_tag(@post.image.url) %>
-  <%=@post.user.email %>
+  <%=@post.user.username %>
 </p>
 
 <%= link_to 'Edit', edit_post_path(@post) %> |
